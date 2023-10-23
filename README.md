@@ -14,7 +14,18 @@ Conclusion: The MTB-VCF pipeline demonstrates the ability to rapidly and accurat
 MTB-VCF runs on Linux system or WSL2-Ubuntu that runs Python v-2.70. Analyses in this study were performed on a Ubuntu Linux Server with four six-core AMD Opteron CPUs and 128 GB RAM, using 8 threads.
 
 
- **Installation**
+ **Installation from source**
+
+ The source code is hosted in a git repository at [MTB-VCF](https://github.com/safinaARK/MTB-VCF)
+
+ It can be downloaded via git clone:
+ 
 ```
+git clone https://github.com/safinaARK/MTB-VCF.git
+```
+
+ Pre-requisites can be installed from install.py
+```
+cd MTB-VCF
 python install.py
 ```
