@@ -10,9 +10,10 @@ Conclusion: The MTB-VCF pipeline demonstrates the ability to rapidly and accurat
 **MTB-VCF** is written in Python and C, is open-source and published under GNU GPLv3.
 
  **Hardware specification** 
- <br>
+
 MTB-VCF runs on Linux system or WSL2-Ubuntu that runs Python v-2.70. Analyses in this study were performed on a Ubuntu Linux Server with four six-core AMD Opteron CPUs and 128 GB RAM, using 8 threads.
-<br>
+
+
  **Installation**
 ```
 python install.py
