@@ -106,10 +106,10 @@ if __name__ == '__main__':
 
         ## Check if global variables point to existing files:
         INF_check = os.path.exists(SAMPLE)
-        OUT_check = os.path.exists(GATK)
+        #OUT_check = os.path.exists(GATK)
 
-        if not(INF_check and OUT_check):
-                print(">ERROR : One or several global variable: \n  Input={} > {}\n  Output directory={} > {}\n>Please correct and try again!".format(INF, INF_check, OUT,OUT_check))
+        if not(INF_check ):
+                print(">ERROR : One or several global variable: \n  Input={} > {}\n  Output directory={} > {}\n>Please correct and try again!".format(SAMPLE, INF_check))
                 sys.exit(1)
         else: ## If everything checks out, start project
  #               downloading_dependencies()
@@ -119,8 +119,3 @@ if __name__ == '__main__':
         print("\n\n You can see the output files in this directory %s."%OUTF)
 end="toilet -f term -F border:gay Thank You for Using MTB-VCF"
 subprocess.check_call(end, shell=True)
-
-
-
-
-
